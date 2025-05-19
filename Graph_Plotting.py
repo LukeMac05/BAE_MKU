@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load datasets
+
 df_heart = pd.read_csv('/Users/lukemacdonald/Documents/Coding/Python/csv_data/heart-1.csv')
 df_iris = pd.read_csv('/Users/lukemacdonald/Documents/Coding/Python/csv_data/iris.csv')
 df_titanic = pd.read_csv('/Users/lukemacdonald/Documents/Coding/Python/csv_data/titanic-1.csv')
@@ -26,7 +26,7 @@ plt.ylabel('Count')
 plt.legend(title='Heart Condition')
 plt.tight_layout()
 
-# ---------- IRIS DATASET ----------
+# ---------- IRIS DATASET ---------- this is an edited comment
 fig_iris = plt.figure(figsize=(10, 4))
 plt.subplot(1, 2, 1)
 df_iris['sepal.length'].hist(bins=10, color='mediumpurple', edgecolor='black')
@@ -63,3 +63,4 @@ plt.tight_layout()
 
 # Show all figures at once
 plt.show()
+# this is a new commentThis is Ali contribution
